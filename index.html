@@ -6,8 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="main.js"></script>
     <title>Document</title>
+    <style>
+      html,
+      body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      .block1 {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("resturant_floor.jpg");
+        height: 800px;
+        width: 100vw;
+        font-size: 30px;
+        font-family:  Arial, Helvetica, sans-serif;
+      }
+      .navbar{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+      }
+      .restaurant_logo{
+        height:200px
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      .nav_links li {
+        display: inline-block;
+        padding: 0px 20px;
+      }
+      ul {
+        list-style-type: none;
+      }
+      .headline_container{
+        padding-top:100px;
+        display:flex;
+        justify-content: center;
+        color:white
+      }
+      .headline_real{
+        border:2px solid #fff;
+        padding:50px;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        
+      }
+      .headline_real .heading4 {
+        font-size: 25px;
+        letter-spacing: 5px;
+        margin-bottom:0;
+      }
+      .headline_real .heading3 {
+        font-size: 35px;
+        letter-spacing: 10px;
+        margin-top:20px;
+      }
+
+    </style>
   </head>
   <body>
-    <div id="content"></div>
+    <div id="content">
+        <header class="block1">
+          <nav class="navbar">
+          <img class="restaurant_logo" src="currywurst.png">
+            <ul class="nav_links">
+              <li><a href="#">Strona Główna</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Kontakt</a></li>
+            </ul>
+          </nav>
+          <div class="headline_container">
+            <div class="headline_real">
+              <p class="heading4">RESTAURACJA LEŚNICZÓWKA</p>
+              <p class="heading3">PRAWDZIWE POLSKIE SMAKI</p>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
   </body>
 </html>
