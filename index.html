@@ -13,84 +13,133 @@
         margin: 0;
         padding: 0;
       }
+
       .block1 {
         background-image: linear-gradient(
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)
           ),
           url("resturant_floor.jpg");
-        height: 800px;
+        height: 500px;
         width: 100vw;
-        font-size: 30px;
-        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
       }
-      .navbar{
+
+      .navbar {
         display: flex;
         justify-content: center;
-        align-items:center;
+        align-items: center;
       }
-      .restaurant_logo{
-        height:200px
+
+      .restaurant_logo {
+        height: 100px;
       }
+
       a {
         text-decoration: none;
         color: white;
       }
+
       .nav_links li {
         display: inline-block;
         padding: 0px 20px;
       }
+
       ul {
         list-style-type: none;
       }
-      .headline_container{
-        padding-top:100px;
-        display:flex;
+
+      .headline_container {
+        padding-top: 50px;
+        display: flex;
         justify-content: center;
-        color:white
+        color: white;
       }
-      .headline_real{
-        border:2px solid #fff;
-        padding:50px;
-        display:flex;
+
+      .headline_real {
+        border: 2px solid #fff;
+        padding: 40px;
+        display: flex;
         justify-content: center;
         flex-direction: column;
         align-content: center;
         align-items: center;
-        
-      }
-      .headline_real .heading4 {
-        font-size: 25px;
-        letter-spacing: 5px;
-        margin-bottom:0;
-      }
-      .headline_real .heading3 {
-        font-size: 35px;
-        letter-spacing: 10px;
-        margin-top:20px;
       }
 
+      .headline_real .heading4 {
+        font-size: 15px;
+        letter-spacing: 5px;
+        margin-bottom: 0;
+      }
+
+      .headline_real .heading3 {
+        font-size: 25px;
+        letter-spacing: 10px;
+        margin-top: 20px;
+      }
+
+      .main {
+        height: 1000px;
+        width: 100vw;
+        background: url(white_wood_bg.webp) 50% 0 repeat;
+      }
+      .main_text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+      }
+      .main_text h1 {
+        margin-bottom: 0px;
+      }
+      .long_paragraph {
+        width: 1000px;
+        text-align: center;
+      }
+      footer {
+        background-color: black;
+        color: white;
+      }
     </style>
   </head>
   <body>
     <div id="content">
-        <header class="block1">
-          <nav class="navbar">
-          <img class="restaurant_logo" src="currywurst.png">
-            <ul class="nav_links">
-              <li><a href="#">Strona Główna</a></li>
-              <li><a href="#">Menu</a></li>
-              <li><a href="#">Kontakt</a></li>
-            </ul>
-          </nav>
-          <div class="headline_container">
-            <div class="headline_real">
-              <p class="heading4">RESTAURACJA LEŚNICZÓWKA</p>
-              <p class="heading3">PRAWDZIWE POLSKIE SMAKI</p>
-            </div>
+      <header class="block1">
+        <nav class="navbar">
+          <img class="restaurant_logo" src="currywurst.png" />
+          <ul class="nav_links">
+            <li><a href="#">Strona Główna</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </nav>
+        <div class="headline_container">
+          <div class="headline_real">
+            <p class="heading4">RESTAURACJA LEŚNICZÓWKA</p>
+            <p class="heading3">PRAWDZIWE POLSKIE SMAKI</p>
           </div>
-        </header>
+        </div>
+      </header>
+      <div class="main">
+        <div class="main_text">
+          <h1>Kilka słów o restauracji</h1>
+          <p>POZNAJ NAS</p>
+          <div class="long_paragraph">
+            <p>
+              Restauracja "Leśniczówka" znajduje się w centrum miasta, w
+              największym Parku Miejskim w Grudziądzu. Restauracja oferuje
+              prawdziwie polskie smaki, kuchnię myśliwską, w tym podaną na wiele
+              sposobów dziczyznę. Organizujemy Chrzciny, Komunie Święte, Zabawy
+              Sylwestrowe czy Karnawałowe, Studniówki i Połowinki oraz inne
+              uroczystości.
+            </p>
+          </div>
+        </div>
       </div>
+      <footer>Made by me</footer>
     </div>
   </body>
 </html>
