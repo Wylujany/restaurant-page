@@ -1,0 +1,32 @@
+<header class="block1">
+  <nav class="navbar">
+    <img class="restaurant_logo" src="currywurst.png" />
+    <ul class="nav_links">
+      <li><a href="#">Strona Główna</a></li>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Kontakt</a></li>
+    </ul>
+  </nav>
+  <div class="headline_container">
+    <div class="headline_real">
+      <p class="heading4">RESTAURACJA LEŚNICZÓWKA</p>
+      <p class="heading3">PRAWDZIWE POLSKIE SMAKI</p>
+    </div>
+  </div>
+</header>
+<div class="main">
+  <div class="main_text">
+    <h1>Kilka słów o restauracji</h1>
+    <p>POZNAJ NAS</p>
+    <div class="long_paragraph">
+      <p>
+        Restauracja "Leśniczówka" znajduje się w centrum miasta, w największym
+        Parku Miejskim w Grudziądzu. Restauracja oferuje prawdziwie polskie
+        smaki, kuchnię myśliwską, w tym podaną na wiele sposobów dziczyznę.
+        Organizujemy Chrzciny, Komunie Święte, Zabawy Sylwestrowe czy
+        Karnawałowe, Studniówki i Połowinki oraz inne uroczystości.
+      </p>
+    </div>
+  </div>
+</div>
+<footer>Made by me</footer>
