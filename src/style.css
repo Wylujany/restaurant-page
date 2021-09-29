@@ -82,13 +82,14 @@ ul {
 }
 
 .main {
-  height: 1000px;
+  height: 600px;
   width: 100vw;
   background: url(assets/white_wood_bg.webp) 50% 0 repeat;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+
 .main_text {
   display: flex;
   justify-content: center;
@@ -107,9 +108,10 @@ ul {
   text-align: center;
 }
 
-footer {
+.footer {
   background-color: black;
   color: white;
+  text-align: center;
 }
 
 .items_container {
@@ -124,4 +126,11 @@ footer {
   background: rgba(209, 209, 209, 0.3);
   height: 400px;
   font-size: 25px;
+  text-align: center;
+}
+.info-container {
+  width: 800px;
+  height: 400px;
+  background: rgba(209, 209, 209, 0.3);
+  text-align: center;
 }
