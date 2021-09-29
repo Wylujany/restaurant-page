@@ -28,4 +28,5 @@ function render() {
   list.append(l3);
   return navbar;
 }
+
 export { render as navbarRender };

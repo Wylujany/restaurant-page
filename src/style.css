@@ -19,6 +19,7 @@ body {
 }
 
 .navbar {
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,14 +30,10 @@ body {
   height: 100px;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
 .nav_links li {
   display: inline-block;
   padding: 0px 20px;
+  color: white;
 }
 
 ul {
@@ -76,6 +73,9 @@ ul {
   height: 1000px;
   width: 100vw;
   background: url(assets/white_wood_bg.webp) 50% 0 repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .main_text {
   display: flex;
@@ -85,14 +85,31 @@ ul {
   align-content: center;
   text-align: center;
 }
+
 .main_text h1 {
   margin-bottom: 0px;
 }
+
 .long_paragraph {
   width: 1000px;
   text-align: center;
 }
+
 footer {
   background-color: black;
   color: white;
+}
+
+.items_container {
+  width: 800px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 1em;
+}
+
+.dish_div {
+  border: 1px solid #d9d9d9;
+  background: rgba(209, 209, 209, 0.3);
+  height: 400px;
+  font-size: 25px;
 }

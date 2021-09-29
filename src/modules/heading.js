@@ -1,4 +1,3 @@
-import { navbarRender } from "./navbar.js";
 function render() {
   const block1 = document.createElement("div");
   block1.classList.add("block1");
@@ -17,7 +16,6 @@ function render() {
   heading3.classList.add("heading3");
   heading3.textContent = "REAL POLISH TASTE";
 
-  block1.append(navbarRender());
   block1.append(headline_con);
   headline_con.append(headline_real);
   headline_real.append(heading4);

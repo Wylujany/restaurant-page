@@ -1,18 +1,21 @@
 import { headingRender } from "./heading.js";
 import { infoRender } from "./info.js";
-const content = document.getElementById("content");
-function load(shit) {
+import { menuPage } from "./menu-page.js";
+
+function load(choice) {
+  const content = document.getElementById("content");
+  console.log(choice);
   clearPage();
-  if (shit === "Main Page") {
+  if (choice === "Main Page") {
     content.appendChild(headingRender());
     content.appendChild(infoRender());
-  } else if (shit === "Menu") {
-    content.appendChild(headingRender());
+  } else if (choice === "Menu") {
+    content.appendChild(menuPage());
   }
 }
 function clearPage() {
-  while (content.firstChild) {
-    content.removeChild(content.lastChild);
+  while (content.children.length > 1) {
+    content.children[1].remove();
   }
 }
 export { load as pageLoad };
